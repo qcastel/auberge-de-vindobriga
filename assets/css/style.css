@@ -5007,6 +5007,14 @@ ul.card-info::after {
 	margin-bottom: 0;
 }
 
+.reservation-style-two li {
+	margin-bottom: 10px;
+}
+
+.reservation-style-two i {
+	margin-right: 5px;
+}
+
 .date-picker-one span.input-group-addon {
 	background: var(--color-primary);
 	color: var(--white);
