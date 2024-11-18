@@ -76,3 +76,26 @@ Sidebar heading:  22px 'Marcellus', sans-serif
 /*
 ** General Styles for HTML tags
 */
+
+.bar-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.bar-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.bar-time:last-child {
+    border-bottom: none;
+}
+
+.bar-time b {
+    margin-left: auto;
+    text-align: right;
+}
